@@ -39,7 +39,9 @@ class ListTransactionsPageState extends State<ListTransactionsPage> {
   }
 
   fetchData() async {
-    transactions = await widget.transactionsService.getAll();
-    print(transactions);
+    final loadedTransactions = await widget.transactionsService.getAll();
+    setState(() {
+     transactions = loadedTransactions;
+    });
   }
 }

@@ -18,7 +18,8 @@ abstract class BaseService<T extends BaseDto> {
   Future<List<T>> getAll() async {
     var response = await http.get(Uri.parse('$_baseAddress/$_resource'));
     var json = jsonDecode(response.body) as List;
-    var jsonList = json.map((element) => element as Map<String, dynamic>).toList();
+    var jsonList =
+        json.map((element) => element as Map<String, dynamic>).toList();
     return jsonList.map((element) => mapToDto(element)).toList();
   }
 
