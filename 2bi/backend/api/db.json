@@ -1,0 +1,24 @@
+{
+    "transactions": [
+        {
+            "id": "cdb79b3b-23fa-4fb1-9d5b-4e8de7f288eb",
+            "name": "Kauan Rossi",
+            "value": 235.99
+        },
+        {
+            "id": "41eae5ff-7081-4f0c-a93a-6124abddf0b4",
+            "name": "B0nam",
+            "value": 150.00
+        },
+        {
+            "id": "62165a9f-289b-4654-87c5-55fd3486e223",
+            "name": "Joca",
+            "value": 35.90
+        },
+        {
+            "id": "5044958c-4368-483d-ba91-edd3984b49bc",
+            "name": "Rafael Almeida",
+            "value": 1270.00
+        }
+    ]
+}
